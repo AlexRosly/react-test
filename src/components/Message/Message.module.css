@@ -1,0 +1,52 @@
+.Message {
+  position: absolute;
+  display: none;
+  top: 38%;
+  left: 52%;
+
+  max-width: 220px;
+  height: 106.25px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 5.5102px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  font-family: Segoe UI, sans-serif;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11.97px;
+
+  color: #4c4c4c;
+}
+
+.active {
+  position: absolute;
+
+  top: 53%;
+  left: 52%;
+
+  max-width: 220px;
+  height: 106.25px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 5.5102px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  font-family: Segoe UI, sans-serif;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11.97px;
+
+  color: #4c4c4c;
+}
+
+.styleP {
+  margin: 0;
+  padding: 11px 27px 16.25px 22px;
+}
+
+.triangle {
+  position: absolute;
+  bottom: -9%;
+  left: 47%;
+}

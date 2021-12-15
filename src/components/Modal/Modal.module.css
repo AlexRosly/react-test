@@ -1,0 +1,51 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(76, 76, 76, 0.5);
+  z-index: 1200;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  height: 843px;
+  width: 850px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.closeBtn {
+  position: absolute;
+  padding: 0;
+  top: 18px;
+  right: 21px;
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  background-color: rgba(76, 76, 76, 0.1);
+  border-radius: 3px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

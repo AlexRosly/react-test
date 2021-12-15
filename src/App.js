@@ -1,6 +1,7 @@
 import "./App.css";
 import { Button } from "./components/Button/Button";
 import { Message } from "./components/Message/Message";
+import { Modal } from "./components/Modal/Modal";
 import { useDispatch, useSelector } from "react-redux";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div className="App-container">
+      <Modal />
       <div className="wrapper">
         <Message isActive={isActive} />
         <Button

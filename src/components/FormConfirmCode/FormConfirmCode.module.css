@@ -1,0 +1,99 @@
+.form {
+  padding: 50px 39px 0 28px;
+}
+
+.textWrapper {
+  width: 496px;
+}
+
+.title {
+  margin: 0;
+  font-family: Segoe UI;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.33;
+
+  color: #4c4c4c;
+}
+
+.paragraf {
+  margin: 0;
+  font-family: Segoe UI;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.267;
+
+  color: #4c4c4c;
+}
+
+.message {
+  position: relative;
+  margin: 14px 0 0 21px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+
+  color: #ff0000;
+}
+
+.message::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  left: -20px;
+  top: 20%;
+  background-color: #ff0000;
+}
+
+.label {
+  position: relative;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding: 20px 27px 8px 14px;
+
+  width: 247px;
+  height: 39px;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  outline: none;
+
+  color: #aeafbc;
+  border: 1px solid #a5a5a5;
+}
+
+.inputText {
+  position: absolute;
+  top: 2px;
+  left: 14px;
+  width: 140px;
+  font-family: Segoe UI;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 12px;
+  color: #aeafbc;
+}
+
+.attetion {
+  margin: 0;
+  margin-left: 23px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+
+  color: #ff6000;
+}
